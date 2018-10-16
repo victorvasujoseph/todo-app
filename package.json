@@ -1,0 +1,29 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Sample Todo App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorvasujoseph/todo-app.git"
+  },
+  "keywords": [
+    "Todo"
+  ],
+  "author": "Victor Joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorvasujoseph/todo-app/issues"
+  },
+  "homepage": "https://github.com/victorvasujoseph/todo-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.4"
+  }
+}
